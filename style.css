@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f9d220;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.pokeBall {
+  max-width: 70px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  list-style-type: none;
+}
+li {
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+li a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background: white;
+  transition: all 0.5s;
+}
+
+li a:hover::after {
+  width: 100%;
+}
+
+.content1 {
+  background-color: #f9d220;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainTitle {
+  color: white;
+  font-size: 54px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.mainText {
+  color: white;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.pikachu-img {
+  max-width: 400px;
+  height: auto;
+}
+.headerImg {
+  text-align: center;
+  color: blue;
+  vertical-align: middle;
+}
+.button1 {
+  background-color: #fc2b07; /* Green */
+  border: none;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 24px;
+}
+
+.leftArticle {
+  width: 30%;
+  margin-right: 60px;
+}
+
+.content2 {
+  display: flex;
+  background-color: ;
+}
+
+.galleryTitle {
+  font-size: 36px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.content2 .photo {
+  border: 4px solid #fc2b07;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+.text {
+  text-align: center;
+}
+
+.content2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.quote {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content3 {
+  background-color: #f4eac4;
+  margin-top: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp {
+  height: 200px;
+  width: 1000px;
+  border: 3px solid red;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  background-color: #f9d220;
+  color: white;
+}
+
+.button2 {
+  background-color: #fc2b07;
+  border: none;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 24px;
+}
+
+.button1:hover {
+  background-color: #ac1c02;
+}
+
+.button1:active {
+  background-color: #ac1c02;
+  transform: translateY(4px);
+}
+
+.button2:hover {
+  background-color: #ac1c02;
+}
+
+.button2:active {
+  background-color: #ac1c02;
+  transform: translateY(4px);
+}
+
+footer {
+  height: 60px;
+  text-align: center;
+  background-color: #f9d220;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
